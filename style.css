@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+     width: 100px;
+       height: 100px;
+        background: #0aa396;
+         border: 2p solid #222;
+         border-radius: 10px;
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         padding: 40px;
+}
+.inline-box{
+    display: flex;
+    margin: 7px;
+    padding: 5px; 
+    justify-content: space-between;
+}
